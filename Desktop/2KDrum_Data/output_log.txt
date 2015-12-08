@@ -1,0 +1,718 @@
+Initialize engine version: 5.0.1f1 (5a2e8fe35a68)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 760 (ID=0x1187)
+    Vendor:   NVIDIA
+    VRAM:     1990 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\GameSparks.Api.dll (this message is harmless)
+Loading C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\GameSparks.Api.dll into Unity Child Domain
+Platform assembly: C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\GameSparks.dll (this message is harmless)
+Loading C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\GameSparks.dll into Unity Child Domain
+- Completed reload, in  0.141 seconds
+desktop: 1920x1080 60Hz; virtual: 3600x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\System.dll (this message is harmless)
+Exception: The GSInstance "default" is not initalized. Did you call "void Initialise(IGSPlatform platform);" ?
+  at GameSparks.Core.GSInstance.CheckInitialized () [0x00000] in <filename unknown>:0 
+  at GameSparks.Core.GSInstance.Reconnect () [0x00000] in <filename unknown>:0 
+  at GameSparks.Core.GS.Reconnect () [0x00000] in <filename unknown>:0 
+  at GameSparks.Platforms.PlatformBase.OnApplicationPause (Boolean paused) [0x00000] in <filename unknown>:0 
+UnityEngine.SystemInfo:get_deviceUniqueIdentifier()
+GameSparks.Platforms.PlatformBase:Start()
+ 
+(Filename:  Line: -1)
+
+GS: Connecting to:wss://preview.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2210 -> priority: 1 
+  Thread -> id: 14cc -> priority: 1 
+Platform assembly: C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\Mono.Security.dll (this message is harmless)
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class": ".AuthenticatedConnectResponse","connectUrl": "wss://gsp-aeu000-se06.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=","requestId": "0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Connecting to:wss://gsp-aeu000-se06.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"281a7872-9c73-4835-a780-f5e5a0b9586c","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"Fy894z9mGXjzINeNhnSlDp321hz4mkuu5v3feAfzRto=","os":"WP8","platform":"WindowsPlayer","deviceId":"ec924570d4c5403692dabae709eb995e39174036","authToken":"491f3d0b-a818-4acb-a929-0353bdf1b2df"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"f8a76392-0808-4374-8be5-998fc673b40e","requestId":"0","sessionId":"281a7872-9c73-4835-a780-f5e5a0b9586c","userId":"55d24906845fb88eba4e3361"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Available
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Connecting to:wss://gsp-aeu000-se06.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"b4bb94f1-aa43-4c26-967a-38d82d9472e8","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"wGDtdIhU0OgboUwnoQZ4iq0oT4RazlfW2JTwZvEG9+4=","os":"WP8","platform":"WindowsPlayer","deviceId":"ec924570d4c5403692dabae709eb995e39174036","authToken":"f8a76392-0808-4374-8be5-998fc673b40e","sessionId":"281a7872-9c73-4835-a780-f5e5a0b9586c"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"25bcf547-a02c-40a7-bcb7-9ba765c812c9","requestId":"0","sessionId":"281a7872-9c73-4835-a780-f5e5a0b9586c","userId":"55d24906845fb88eba4e3361"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Available
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Connecting to:wss://gsp-aeu000-se06.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"a80ba99f-9680-4096-b81c-7424dde4b327","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"DxyZjQm5m6xjMuTZlmdbfZ19wOrIRi55AVhnONdZZqo=","os":"WP8","platform":"WindowsPlayer","deviceId":"ec924570d4c5403692dabae709eb995e39174036","authToken":"25bcf547-a02c-40a7-bcb7-9ba765c812c9","sessionId":"281a7872-9c73-4835-a780-f5e5a0b9586c"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"b097d5e6-21bd-49f7-86ea-a762a585d079","requestId":"0","sessionId":"281a7872-9c73-4835-a780-f5e5a0b9586c","userId":"55d24906845fb88eba4e3361"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Available
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.649206 ms
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 430.
+Total: 0.472280 ms (FindLiveObjects: 0.027781 ms CreateObjectMapping: 0.018039 ms MarkObjects: 0.412749 ms  DeleteObjects: 0.013349 ms)
+
+<RI.Hid> Failed to create device file:
+ 1f A device attached to the system is not functioning.
+
+ 
+(Filename:  Line: 54)
+
+Joystick connected ("Harmonix Drum Kit for PlayStation(R)3").
+ 
+(Filename:  Line: 1353)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.330612 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 448.
+Total: 0.497175 ms (FindLiveObjects: 0.045460 ms CreateObjectMapping: 0.022369 ms MarkObjects: 0.398678 ms  DeleteObjects: 0.029585 ms)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 398)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 398)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 398)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 398)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 398)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 398)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 398)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 398)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.796274 ms
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 428.
+Total: 0.509081 ms (FindLiveObjects: 0.031389 ms CreateObjectMapping: 0.017678 ms MarkObjects: 0.429346 ms  DeleteObjects: 0.030306 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.745041 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 386.
+Total: 0.463260 ms (FindLiveObjects: 0.043295 ms CreateObjectMapping: 0.026338 ms MarkObjects: 0.380638 ms  DeleteObjects: 0.012267 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at HighScoreDisplay.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.762720 ms
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 403.
+Total: 0.474084 ms (FindLiveObjects: 0.029945 ms CreateObjectMapping: 0.017318 ms MarkObjects: 0.403008 ms  DeleteObjects: 0.023090 ms)
+
+GS: Connecting to:wss://preview.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class": ".AuthenticatedConnectResponse","connectUrl": "wss://gsp-aeu000-se06.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=","requestId": "0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Connecting to:wss://gsp-aeu000-se06.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"c3f3898c-8fa5-4a99-a56c-9736372e1430","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"c34SiP8IguUhmprmZGGjZPFyEcTUOdstTUF1QbH+J4w=","os":"WP8","platform":"WindowsPlayer","deviceId":"ec924570d4c5403692dabae709eb995e39174036","authToken":"b097d5e6-21bd-49f7-86ea-a762a585d079","sessionId":"281a7872-9c73-4835-a780-f5e5a0b9586c"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"deeda863-3d29-4cd9-bb54-bfaf99baa1f3","requestId":"0","sessionId":"281a7872-9c73-4835-a780-f5e5a0b9586c","userId":"55d24906845fb88eba4e3361"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Available
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Connecting to:wss://gsp-aeu000-se06.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"ac8b2113-f0bd-48c0-9146-71d34c00bd3a","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"ibqpyyqd3jpVifnqtyOfUGNiiTU8nzqmT/VmPUIqnB4=","os":"WP8","platform":"WindowsPlayer","deviceId":"ec924570d4c5403692dabae709eb995e39174036","authToken":"deeda863-3d29-4cd9-bb54-bfaf99baa1f3","sessionId":"281a7872-9c73-4835-a780-f5e5a0b9586c"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"1b57f208-6fae-4910-9aa6-fac5b42efd97","requestId":"0","sessionId":"281a7872-9c73-4835-a780-f5e5a0b9586c","userId":"55d24906845fb88eba4e3361"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Available
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Connecting to:wss://gsp-aeu000-se06.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"657ee237-7d45-40ae-9b93-f5c5a92a9d15","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"tSmZZYd4kmVpW0bnEpQRdSkaiJmjrdEwL5dFXKAaiWc=","os":"WP8","platform":"WindowsPlayer","deviceId":"ec924570d4c5403692dabae709eb995e39174036","authToken":"1b57f208-6fae-4910-9aa6-fac5b42efd97","sessionId":"281a7872-9c73-4835-a780-f5e5a0b9586c"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"35f30abc-92e1-4ae7-b470-b5620290323b","requestId":"0","sessionId":"281a7872-9c73-4835-a780-f5e5a0b9586c","userId":"55d24906845fb88eba4e3361"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Available
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Initialize engine version: 5.0.1f1 (5a2e8fe35a68)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 760 (ID=0x1187)
+    Vendor:   NVIDIA
+    VRAM:     1990 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\GameSparks.Api.dll (this message is harmless)
+Loading C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\GameSparks.Api.dll into Unity Child Domain
+Platform assembly: C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\GameSparks.dll (this message is harmless)
+Loading C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\GameSparks.dll into Unity Child Domain
+- Completed reload, in  0.053 seconds
+desktop: 1920x1080 60Hz; virtual: 3600x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\System.dll (this message is harmless)
+GS: Connecting to:wss://preview.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 25d8 -> priority: 1 
+  Thread -> id: b44 -> priority: 1 
+Platform assembly: C:\Users\Hesht\Downloads\2k Drum Unity\Desktop\2KDrum_Data\Managed\Mono.Security.dll (this message is harmless)
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class": ".AuthenticatedConnectResponse","connectUrl": "wss://gsp-aeu000-se05.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=","requestId": "0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Connecting to:wss://gsp-aeu000-se05.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Connecting to:wss://gsp-aeu000-se05.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"f09a1e51-12ec-45c0-a3b5-15abbffa0701","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"h8PVOjnVy4le0/JE+3l50svIru3e+U9xIUUXs0yg+XQ=","os":"WP8","platform":"WindowsPlayer","deviceId":"ec924570d4c5403692dabae709eb995e39174036","authToken":"c1db61af-38d9-4067-a928-cc4d2bee1c86"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"5392f4ec-7b92-4642-8982-dc4eb74b1620","requestId":"0","sessionId":"f09a1e51-12ec-45c0-a3b5-15abbffa0701","userId":"55d24906845fb88eba4e3361"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Available
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.691419 ms
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 430.
+Total: 0.837766 ms (FindLiveObjects: 0.040409 ms CreateObjectMapping: 0.029224 ms MarkObjects: 0.749732 ms  DeleteObjects: 0.017678 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.982930 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 448.
+Total: 0.597476 ms (FindLiveObjects: 0.026338 ms CreateObjectMapping: 0.017678 ms MarkObjects: 0.528564 ms  DeleteObjects: 0.024534 ms)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 398)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 398)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 398)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 398)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.872763 ms
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 428.
+Total: 0.658451 ms (FindLiveObjects: 0.046181 ms CreateObjectMapping: 0.027781 ms MarkObjects: 0.561397 ms  DeleteObjects: 0.022369 ms)
+
+GS: Connecting to:wss://gsp-aeu000-se05.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Connecting to:wss://gsp-aeu000-se05.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"a135afd8-4306-41b7-a151-70615fcd8696","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Connecting to:wss://gsp-aeu000-se05.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Connecting to:wss://gsp-aeu000-se05.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Connecting to:wss://gsp-aeu000-se05.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Connecting to:wss://gsp-aeu000-se05.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Connecting to:wss://gsp-aeu000-se05.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"a90556c8-deb4-4da6-b34a-6111214156e7","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"K6uGwvpmsUKqOgfBJU616Cemt58LBq0IgVy+g70y0RQ=","os":"WP8","platform":"WindowsPlayer","deviceId":"ec924570d4c5403692dabae709eb995e39174036","authToken":"5392f4ec-7b92-4642-8982-dc4eb74b1620","sessionId":"f09a1e51-12ec-45c0-a3b5-15abbffa0701"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"8b90d55f-61c7-443d-ad78-3f67979a1ec0","requestId":"0","sessionId":"f09a1e51-12ec-45c0-a3b5-15abbffa0701","userId":"55d24906845fb88eba4e3361"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Available
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Connecting to:wss://gsp-aeu000-se05.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"5e69340a-e5ab-4ee6-9eee-9e63cf314099","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"Qj3Z064kovqefGRDqzNxdTpS+AlFQah+2ZJJYk/62VE=","os":"WP8","platform":"WindowsPlayer","deviceId":"ec924570d4c5403692dabae709eb995e39174036","authToken":"8b90d55f-61c7-443d-ad78-3f67979a1ec0","sessionId":"f09a1e51-12ec-45c0-a3b5-15abbffa0701"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"b23e37fd-6b62-405e-a475-176ffb82f148","requestId":"0","sessionId":"f09a1e51-12ec-45c0-a3b5-15abbffa0701","userId":"55d24906845fb88eba4e3361"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Available
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.442098 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 448.
+Total: 0.515576 ms (FindLiveObjects: 0.038244 ms CreateObjectMapping: 0.018039 ms MarkObjects: 0.452437 ms  DeleteObjects: 0.006494 ms)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 398)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 398)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 398)
+
+GS: Connecting to:wss://gsp-aeu000-se05.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"806c88ba-4249-49cb-8ed7-3b7070a81f5f","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"UeckAiD0ukB/0JAWls17nkObCe7s5U6oLoOC09I6WUI=","os":"WP8","platform":"WindowsPlayer","deviceId":"ec924570d4c5403692dabae709eb995e39174036","authToken":"b23e37fd-6b62-405e-a475-176ffb82f148","sessionId":"f09a1e51-12ec-45c0-a3b5-15abbffa0701"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"b5df87e0-bd2b-40d5-bc8c-741e6066ac43","requestId":"0","sessionId":"f09a1e51-12ec-45c0-a3b5-15abbffa0701","userId":"55d24906845fb88eba4e3361"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Available
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Connecting to:wss://gsp-aeu000-se05.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"17347f6a-ccfb-4861-bdd7-3d78b5bb5a06","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"ETTreV/Txaj/zvjUIBKAouq8XPN1bAtme0Ey/kypi6E=","os":"WP8","platform":"WindowsPlayer","deviceId":"ec924570d4c5403692dabae709eb995e39174036","authToken":"b5df87e0-bd2b-40d5-bc8c-741e6066ac43","sessionId":"f09a1e51-12ec-45c0-a3b5-15abbffa0701"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"ddd03ac3-347e-41e1-afed-041efdefa3f8","requestId":"0","sessionId":"f09a1e51-12ec-45c0-a3b5-15abbffa0701","userId":"55d24906845fb88eba4e3361"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Available
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Connecting to:wss://gsp-aeu000-se05.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"a6f83976-211b-44fe-9d28-67046e41cfb2","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"Jwfu4ct0+/4ZAG/PuqwJyk2Q8wBlE4wVul3CyFQ8R2E=","os":"WP8","platform":"WindowsPlayer","deviceId":"ec924570d4c5403692dabae709eb995e39174036","authToken":"ddd03ac3-347e-41e1-afed-041efdefa3f8","sessionId":"f09a1e51-12ec-45c0-a3b5-15abbffa0701"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"da21b328-06ca-4996-9b06-d9f930592420","requestId":"0","sessionId":"f09a1e51-12ec-45c0-a3b5-15abbffa0701","userId":"55d24906845fb88eba4e3361"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Available
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Can not play a disabled audio source
+ 
+(Filename:  Line: 398)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.652678 ms
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 428.
+Total: 0.644019 ms (FindLiveObjects: 0.032832 ms CreateObjectMapping: 0.018039 ms MarkObjects: 0.569695 ms  DeleteObjects: 0.022369 ms)
+
+GS: Connecting to:wss://gsp-aeu000-se05.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"b5d062a5-3d8f-4a93-b733-ea84e3fc6c2c","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"4xb71Ac/uXN5fT2Skq8mJPPn2cNYg1hV9/TxHq/+Y90=","os":"WP8","platform":"WindowsPlayer","deviceId":"ec924570d4c5403692dabae709eb995e39174036","authToken":"da21b328-06ca-4996-9b06-d9f930592420","sessionId":"f09a1e51-12ec-45c0-a3b5-15abbffa0701"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"5e689c98-5a73-4927-aca6-1f1fef690992","requestId":"0","sessionId":"f09a1e51-12ec-45c0-a3b5-15abbffa0701","userId":"55d24906845fb88eba4e3361"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Available
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.865547 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 433.
+Total: 0.621289 ms (FindLiveObjects: 0.032832 ms CreateObjectMapping: 0.016957 ms MarkObjects: 0.559232 ms  DeleteObjects: 0.011545 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.984609 ms
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 428.
+Total: 0.644380 ms (FindLiveObjects: 0.036079 ms CreateObjectMapping: 0.017678 ms MarkObjects: 0.567530 ms  DeleteObjects: 0.021647 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.848950 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 386.
+Total: 0.558510 ms (FindLiveObjects: 0.032110 ms CreateObjectMapping: 0.028142 ms MarkObjects: 0.486712 ms  DeleteObjects: 0.010823 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at HighScoreDisplay.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.803129 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 428.
+Total: 0.610465 ms (FindLiveObjects: 0.035718 ms CreateObjectMapping: 0.026698 ms MarkObjects: 0.540831 ms  DeleteObjects: 0.006494 ms)
+
+GS: Connecting to:wss://gsp-aeu000-se05.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"b6586dee-5f5c-4619-8080-cf34f6584b02","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"7bxlWf5sL4GJqr6G/dGLUJaQ9Zg7umFDs3hdxjTkDTg=","os":"WP8","platform":"WindowsPlayer","deviceId":"ec924570d4c5403692dabae709eb995e39174036","authToken":"5e689c98-5a73-4927-aca6-1f1fef690992","sessionId":"f09a1e51-12ec-45c0-a3b5-15abbffa0701"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"7775ad63-9531-4bcd-be81-813a267a1876","requestId":"0","sessionId":"f09a1e51-12ec-45c0-a3b5-15abbffa0701","userId":"55d24906845fb88eba4e3361"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Available
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Connecting to:wss://gsp-aeu000-se05.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"1d98d49f-0781-495d-a3d0-c4527aecaae6","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"2xRnyItN3a5p6pC5Upjb2pR67rk0ZaFxAYvs3q36TGI=","os":"WP8","platform":"WindowsPlayer","deviceId":"ec924570d4c5403692dabae709eb995e39174036","authToken":"7775ad63-9531-4bcd-be81-813a267a1876","sessionId":"f09a1e51-12ec-45c0-a3b5-15abbffa0701"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"9275ade0-4092-4052-81c0-510cb9126e1d","requestId":"0","sessionId":"f09a1e51-12ec-45c0-a3b5-15abbffa0701","userId":"55d24906845fb88eba4e3361"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Available
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.590148 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 433.
+Total: 0.895854 ms (FindLiveObjects: 0.037522 ms CreateObjectMapping: 0.017678 ms MarkObjects: 0.793388 ms  DeleteObjects: 0.046542 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.483589 ms
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 428.
+Total: 0.534337 ms (FindLiveObjects: 0.034997 ms CreateObjectMapping: 0.018039 ms MarkObjects: 0.459653 ms  DeleteObjects: 0.021286 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.922192 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 448.
+Total: 0.590982 ms (FindLiveObjects: 0.044017 ms CreateObjectMapping: 0.018761 ms MarkObjects: 0.519544 ms  DeleteObjects: 0.007576 ms)
+
+GS: Connecting to:wss://gsp-aeu000-se05.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: OPENED
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","nonce":"ffaa05de-d112-4d1c-95e9-d3e46a074391","requestId":"0"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: SEND:{"@class":".AuthenticatedConnectRequest","hmac":"I5lZlfln68RUlNkq0rSLvNBC46M334t40ZcycrMUWh4=","os":"WP8","platform":"WindowsPlayer","deviceId":"ec924570d4c5403692dabae709eb995e39174036","authToken":"9275ade0-4092-4052-81c0-510cb9126e1d","sessionId":"f09a1e51-12ec-45c0-a3b5-15abbffa0701"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: RECV:{"@class":".AuthenticatedConnectResponse","authToken":"52ade293-e61a-4da6-b2b4-dd1345f88c49","requestId":"0","sessionId":"f09a1e51-12ec-45c0-a3b5-15abbffa0701","userId":"55d24906845fb88eba4e3361"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Available
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+GS: Connecting to:wss://gsp-aeu000-se05.gamesparks.net/ws/292597wAvZdl?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=?deviceOS=WP8&deviceID=ec924570d4c5403692dabae709eb995e39174036&SDK=
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
